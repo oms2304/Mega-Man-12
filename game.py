@@ -90,5 +90,5 @@ class Game:
             self.window.blit(pygame.transform.scale(self.display, self.window.get_size()), (0,0)) #scales the small display size up to the bigger window
             pygame.display.update()
             self.clock.tick(60)
-
+print("hi")
 Game().run()
